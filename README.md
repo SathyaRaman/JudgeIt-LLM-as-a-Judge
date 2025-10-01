@@ -27,6 +27,7 @@ JudgeIt automates evaluation processes so that it can be run in batch mode and o
 - **Portable-UserApp**: SOA architecture based user app can be deployed anywhere in lightweight manner
 - **Run-Anywhere**: Open architecture to deploy anywhere, be it on Cloud, Hybrid Cloud or On-prem in airgap env.
 - **Expandable**: Preset for Llama models and IBM watsonx platform and open source which can be easily extended to any model from HuggingFace.
+- This repository added on to the previous functionality to provide evaluation for the Sales Development Representative (SDR) agentic framework. It updates the UI to self-generate the ground truth of each agent, and then complete blackbox, whitebox, and negative testing. 
 
 ## Reliability Testing
 
