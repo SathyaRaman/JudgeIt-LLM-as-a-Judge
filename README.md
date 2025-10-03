@@ -28,7 +28,7 @@ JudgeIt automates evaluation processes so that it can be run in batch mode and o
 - This repository added on to the previous functionality to provide evaluation for the Sales Development Representative (SDR) agentic framework. It updates the UI to self-generate the ground truth of each agent, and then complete blackbox, whitebox, and negative testing. 
 ---
 
-## 🔍 Addendum: Agentic Workflow Evaluation Extension
+## Addendum: Agentic Workflow Evaluation Extension
 
 JudgeIt has been extended with an **Agentic Workflow Evaluation Addendum**, designed specifically for evaluating multi-agent workflows
 
@@ -43,8 +43,8 @@ This addendum introduces three new evaluation methodologies:
 **Goal:**  
 Enhance JudgeIt from a GenAI pipeline evaluator (RAG, multi-turn, query rewrite) into a full **agentic workflow evaluator** — measuring not just what the agents produce, but *how* they think, reason, and comply with governance standards.
 
-📄 **Read the full Addendum:**  
-[View the SDR+ Agentic Workflow Evaluation Addendum](./evaluationapp-readme.md)
+**Read the full Addendum:**  
+[View the Agentic Workflow Evaluation README for details and build information](./evaluationapp-readme.md)
 
 ## Reliability Testing
 
