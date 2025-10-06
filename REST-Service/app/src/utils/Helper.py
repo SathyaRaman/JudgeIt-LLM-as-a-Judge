@@ -121,6 +121,18 @@ class Helper:
         raise Exception("Required columns are missing, valid columns are ## " + columns)
 
 
+    def validate_neg_test_eval_fields(self, data_df: pd.DataFrame):
+        
+        required_columns = ["Research Agent Output", "Comms Agent Output"]
+
+
+        if all(column in data_df.columns for column in required_columns):
+            return True
+        
+        columns = ", ".join(required_columns)
+
+        raise Exception("Required columns are missing, valid columns are ## " + columns) 
+
 
     def validate_agent_eval_fields(self, data_df: pd.DataFrame):
         

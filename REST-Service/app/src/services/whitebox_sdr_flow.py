@@ -120,7 +120,6 @@ def check_flow_validity(trail: dict) -> bool:
 
     required_key_values = {
         "metadata.steps.1.tool.name": "think",
-        "metadata.steps.1.input.next_step.0": "final_answer",
         "metadata.steps.2.tool.name": "final_answer"
     }
 
