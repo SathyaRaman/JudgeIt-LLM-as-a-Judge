@@ -13,6 +13,7 @@ RUN pip3 install pymongo
 # Copy your FastAPI Python script to the container
 COPY main.py main.py
 COPY app/ app/
+COPY cert/ cert/
 
 EXPOSE 3001
 
